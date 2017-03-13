@@ -11,7 +11,6 @@
   <body>
     <center>
       <div>
-        <h1>#7DRL</h1>
         <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
         <canvas id="loadingCanvas" oncontextmenu="event.preventDefault()" width="800" height="600"></canvas>
         <h3>Controls</h3>
@@ -21,11 +20,11 @@
           <td>Movement</td>
         </tr>
         <tr>
-          <td><b>Z</b></td>
+          <td><b>X</b></td>
           <td>Knife Attack</td>
         </tr>
         <tr>
-          <td><b>X</b></td>
+          <td><b>Z</b></td>
           <td>Shoot</td>
         </tr>
         <tr>
@@ -80,6 +79,8 @@
             Module.callMain(Module.arguments);
             document.getElementById('loadingCanvas').style.display = 'none';
             document.getElementById('canvas').style.display = 'block';
+            document.getElementsByTagName('body')[0].style['background'] = 'none';
+            document.getElementsByTagName('body')[0].style['background-color'] = '#000000'
           }
         },
         didSyncFS: false,

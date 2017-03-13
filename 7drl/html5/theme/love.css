@@ -8,12 +8,10 @@ h1 {
 }
 
 body {
-    background-image: url(bg.png);
-    background-repeat: no-repeat;
     font-family: arial;
     margin: 0;
     padding: none;
-    background-color: rgb( 154, 205, 237 );
+    background-color: #000000;
     color: rgb( 28, 78, 104 );
 }
 
